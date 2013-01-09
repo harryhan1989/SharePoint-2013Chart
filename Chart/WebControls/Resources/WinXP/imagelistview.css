@@ -1,0 +1,17 @@
+﻿.ilvw_Input_WinXP {z-index:-32000;position:absolute;padding:0px;border:0px;width:0px;}	
+.ilvw_Div_WinXP {border-style:solid;border-width:1px; border-color:#7f9db9; background-color:white; color:black; overflow:auto;}
+.ilvw_ListItemTd_WinXP {font-family:Arial; text-align:center; font-size:9pt; cursor:pointer; border:solid 2px white;}
+.ilvw_ListItemIndex_WinXP {display:none;}
+.ilvw_ListItemValue_WinXP {display:none;}
+.ilvw_ListItemIcon_WinXP {padding: 2px 2px 2px 2px;}    
+.ilvw_ListItemText_WinXP {}
+
+.ilvw_On_WinXP {border:solid 2px #ece9d8;}
+.ilvw_On_Focused_WinXP {border:solid 2px #316ac5;}
+.ilvw_Over_WinXP {border:solid 2px #f2f8fc;}
+.ilvw_On_Over_WinXP {border:solid 2px #d9d8cb;}
+.ilvw_On_Focused_Over_WinXP {border:solid 2px #316ac5;}
+
+.ilvw_Div_Disabled_WinXP {border-style:solid;border-width:1px; border-color:#7f9db9; background-color:white; color:black; overflow:auto;}
+.ilvw_ListItemTd_Disabled_WinXP {color:#aca899; font-family:Arial; text-align:center; font-size:9pt; cursor:pointer;}
+.ilvw_On_Disabled_WinXP {background-color:#ece9d8;}

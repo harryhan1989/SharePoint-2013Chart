@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Themes>
+	
+	<ChartTheme id="EarthTones">
+		<Chart 
+			Palette="EarthTones" 
+			BackColor="Goldenrod" 
+			BackGradientType="DiagonalLeft" 
+			BackGradientEndColor="PaleGoldenrod" 
+			BackHatchStyle="None"
+			BorderLineColor="Gray" 
+			BorderLineWidth="1"
+			BorderLineStyle="NotSet" 
+			BorderSkin-FrameBackColor="Khaki" 
+			BorderSkin-FrameBackGradientEndColor="Olive" ></Chart>
+
+		<ChartArea
+			BackColor="?3D:120,Goldenrod; Default:Transparent"
+			BorderColor="?3D:120,Goldenrod; Default:64,64,64"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="0" ></ChartArea>
+
+		<Axis
+			LineColor="?3D:120,Goldenrod; Default:64,64,64"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="Gray"
+			MajorGrid-LineStyle="Dash" 
+			MinorGrid-LineColor="127,185,185,185" 
+			MinorGrid-LineStyle="Dash" ></Axis>
+
+		<Legend
+			BackColor = "Transparent"
+			BorderColor = "Transparent" 
+			ShadowColor = "100,Black"
+			ShadowOffset = "2"
+			FontColor = "White"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:2"
+			BorderColor="64,64,64"
+			BorderWidth = "1"			
+			BackGradientEndColor="Khaki"
+			BackGradientType="None"
+			></Series>
+	</ChartTheme>
+
+
+	<ChartTheme id="LightSteelBlue">
+		<Chart 
+			Palette="Pastel" 
+			BackColor="LightSteelBlue" 
+			BackGradientType="None" 
+			BackGradientEndColor="LightSteelBlue" 
+			BackHatchStyle="None"
+			BorderLineColor="LightSlateGray" 
+			BorderLineWidth="1"
+			BorderLineStyle="NotSet" 
+			BorderSkin-FrameBackColor="White" 
+			BorderSkin-FrameBackGradientEndColor="White" ></Chart>
+
+		<ChartArea
+			BackColor="Lavender"
+			BorderColor="?3D:120,64,64,64; Default:Empty"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="2" ></ChartArea>
+
+		<Axis
+			LineColor="?3D:120,64,64,64; Default:Black"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="LightSteelBlue"
+			MajorGrid-LineStyle="Solid" 
+			MinorGrid-LineColor="80,LightSteelBlue" 
+			MinorGrid-LineStyle="Dot" ></Axis>
+
+		<Legend
+			BackColor = "Lavender"
+			BorderColor = "Gray" 
+			ShadowColor = "Black"
+			ShadowOffset = "2"
+			FontColor = "Black"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:2"
+			BorderColor="64,64,64"
+			BorderWidth = "1"
+			BackGradientEndColor="Khaki"
+			BackGradientType="None"		
+			></Series>
+	</ChartTheme>
+
+
+	<ChartTheme id="GrayScale">
+		<Chart 
+			Palette="Grayscale" 
+			BackColor="Gainsboro" 
+			BackGradientType="None" 
+			BackGradientEndColor="LightSteelBlue" 
+			BackHatchStyle="None"
+			BorderLineColor="DarkGray" 
+			BorderLineWidth="1"
+			BorderLineStyle="NotSet" 
+			BorderSkin-FrameBackColor="White" 
+			BorderSkin-FrameBackGradientEndColor="White" ></Chart>
+
+		<ChartArea
+			BackColor="Silver"
+			BorderColor="?3D:120,64,64,64; Default:Empty"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="2" ></ChartArea>
+
+		<Axis
+			LineColor="?3D:120,64,64,64; Default:Black"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="LightSteelBlue"
+			MajorGrid-LineStyle="Dash" 
+			MinorGrid-LineColor="LightSteelBlue" 
+			MinorGrid-LineStyle="Dash" ></Axis>
+
+		<Legend
+			BackColor = "Silver"
+			BorderColor = "Gray" 
+			ShadowColor = "Black"
+			ShadowOffset = "2"
+			FontColor = "Black"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:2"
+			BorderColor="64,64,64"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>
+
+	<ChartTheme id="SemiTransparent">
+		<Chart 
+			Palette="SemiTransparent" 
+			BackColor="Azure" 
+			BackGradientType="DiagonalLeft" 
+			BackGradientEndColor="SkyBlue" 
+			BackHatchStyle="None"
+			BorderLineColor="LightGray" 
+			BorderLineWidth="1"
+			BorderLineStyle="Solid" 
+			BorderSkin-FrameBackColor="White" 
+			BorderSkin-FrameBackGradientEndColor="White" ></Chart>
+
+		<ChartArea
+			BackColor="?3D:120,LightBlue; Default:Transparent"
+			BorderColor="DimGray"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="0" ></ChartArea>
+
+		<Axis
+			LineColor="DimGray"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="DimGray"
+			MajorGrid-LineStyle="Dot" 
+			MinorGrid-LineColor="Silver" 
+			MinorGrid-LineStyle="Solid" ></Axis>
+
+		<Legend
+			BackColor = "Transparent"
+			BorderColor = "Transparent" 
+			ShadowColor = "100,Black"
+			ShadowOffset = "2"
+			FontColor = "White"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:2"
+			BorderColor="120,50,50,50"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>
+
+	<ChartTheme id="ExcelLike">
+		<Chart 
+			Palette="Excel" 
+			BackColor="White" 
+			BackGradientType="None" 
+			BackGradientEndColor="SkyBlue" 
+			BackHatchStyle="None"
+			BorderLineColor="Black" 
+			BorderLineWidth="1"
+			BorderLineStyle="Solid" 
+			BorderSkin-FrameBackColor="White" 
+			BorderSkin-FrameBackGradientEndColor="White" ></Chart>
+
+		<ChartArea
+			BackColor="Silver"
+			BorderColor="Black"
+			BorderStyle="Solid"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="0" ></ChartArea>
+
+		<Axis
+			LineColor="DimGray"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="DimGray"
+			MajorGrid-LineStyle="Dot" 
+			MinorGrid-LineColor="80,DimGray" 
+			MinorGrid-LineStyle="Dot" ></Axis>
+
+		<Legend
+			BackColor = "Transparent"
+			BorderColor = "Transparent" 
+			ShadowColor = "100,Black"
+			ShadowOffset = "2"
+			FontColor = "White"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:2"
+			BorderColor="120,50,50,50"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>
+	
+	<ChartTheme id="LightBeige">
+		<Chart 
+			Palette="Light" 
+			BackColor="Beige" 
+			BackGradientType="DiagonalLeft" 
+			BackGradientEndColor="PaleGoldenrod" 
+			BackHatchStyle="None"
+			BorderLineColor="DarkKhaki" 
+			BorderLineWidth="1"
+			BorderLineStyle="Solid" 
+			BorderSkin-FrameBackColor="White" 
+			BorderSkin-FrameBackGradientEndColor="White" ></Chart>
+
+		<ChartArea
+			BackColor="?3D:120,Beige; Default:Transparent"
+			BorderColor="DarkKhaki"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="0" ></ChartArea>
+
+		<Axis
+			LineColor="DimGray"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="DimGray"
+			MajorGrid-LineStyle="Dot" 
+			MinorGrid-LineColor="DimGray" 
+			MinorGrid-LineStyle="Solid" ></Axis>
+
+		<Legend
+			BackColor = "Transparent"
+			BorderColor = "Transparent" 
+			ShadowColor = "100,Black"
+			ShadowOffset = "2"
+			FontColor = "Black"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:2"
+			BorderColor="120,50,50,50"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>
+	
+
+	<ChartTheme id="Berry">
+		<Chart 
+			Palette="Berry" 
+			BackColor="Navy" 
+			BackGradientType="HorizontalCenter" 
+			BackGradientEndColor="CornflowerBlue" 
+			BackHatchStyle="None"
+			BorderLineColor="RoyalBlue" 
+			BorderLineWidth="2"
+			BorderLineStyle="Solid" 
+			BorderSkin-FrameBackColor="CornflowerBlue" 
+			BorderSkin-FrameBackGradientEndColor="DarkBlue" ></Chart>
+
+		<ChartArea
+			BackColor="?3D:120,222,222,222; Default:120,70,70,200"
+			BorderColor="64, 64, 64"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="0" ></ChartArea>
+
+		<Axis
+			LineColor="Black"
+			LabelStyle-FontColor="White" 
+			MajorGrid-LineColor="64,White"
+			MajorGrid-LineStyle="Solid" 
+			MinorGrid-LineColor="32,White" 
+			MinorGrid-LineStyle="Solid" ></Axis>
+
+		<Legend
+			BackColor = "120, 252, 252, 252"
+			BorderColor = "Black" 
+			ShadowColor = "128, 50, 50, 50"
+			ShadowOffset = "2"
+			FontColor = "White"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:2"
+			BorderColor="64, 64, 64"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>
+
+	<ChartTheme id="Chocolate">
+		<Chart 
+			Palette="Chocolate" 
+			BackColor="BurlyWood" 
+			BackGradientType="DiagonalLeft" 
+			BackGradientEndColor="NavajoWhite" 
+			BackHatchStyle="Shingle" 
+			BorderLineColor="Chocolate" 
+			BorderLineWidth="2"
+			BorderLineStyle="Solid" 
+			BorderSkin-FrameBackColor="Chocolate" 
+			BorderSkin-FrameBackGradientEndColor="Sienna" ></Chart>
+
+		<ChartArea
+			BackColor="?3D:120,Chocolate; Default:Transparent"
+			BorderColor="Sienna"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="0" ></ChartArea>
+
+		<Axis
+			LineColor="Sienna"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="Sienna"
+			MajorGrid-LineStyle="Dash" 
+			MinorGrid-LineColor="Sienna" 
+			MinorGrid-LineStyle="Dot" ></Axis>
+
+		<Legend
+			BackColor = "120, 252, 252, 252"
+			BorderColor = "Chocolate" 
+			ShadowColor = "Black"
+			ShadowOffset = "2"
+			FontColor = "Black"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:1"
+			BorderColor="64, 64, 64"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>
+
+	<ChartTheme id="Fire">
+		<Chart 
+			Palette="Fire" 
+			BackColor="DarkOrange" 
+			BackGradientType="TopBottom" 
+			BackGradientEndColor="White" 
+			BackHatchStyle="None" 
+			BorderLineColor="Black" 
+			BorderLineWidth="2"
+			BorderLineStyle="Solid" 
+			BorderSkin-FrameBackColor="SandyBrown" 
+			BorderSkin-FrameBackGradientEndColor="Chocolate" ></Chart>
+
+		<ChartArea
+			BackColor="DarkOrange"
+			BorderColor="?3D:120,64,64,64;Default:Peru"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="TopBottom" 
+			ShadowOffset="0" ></ChartArea>
+
+		<Axis
+			LineColor="?3D:120,64,64,64;Default:WhiteSmoke"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="?3D:120,64,64,64;Default:WhiteSmoke"
+			MajorGrid-LineStyle="Dash" 
+			MinorGrid-LineColor="?3D:120,64,64,64;Default:WhiteSmoke" 
+			MinorGrid-LineStyle="Dot" ></Axis>
+
+		<Legend
+			BackColor = "Transparent"
+			BorderColor = "Transparent" 
+			ShadowColor = "Transparent"
+			ShadowOffset = "2"
+			FontColor = "Black"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:1"
+			BorderColor="64, 64, 64"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>
+
+	<ChartTheme id="GreenBlue">
+		<Chart 
+			Palette="SeaGreen" 
+			BackColor="PaleTurquoise" 
+			BackGradientType="DiagonalLeft" 
+			BackGradientEndColor="White" 
+			BackHatchStyle="None" 
+			BorderLineColor="Black" 
+			BorderLineWidth="1"
+			BorderLineStyle="Solid" 
+			BorderSkin-FrameBackColor="MediumTurquoise" 
+			BorderSkin-FrameBackGradientEndColor="Teal" ></Chart>
+
+		<ChartArea
+			BackColor="?3D:120,MediumTurquoise;Default:Transparent"
+			BorderColor="?3D:120,64,64,64;Default:Peru"
+			BorderStyle="?3D:Solid; Default:NotSet"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="0" ></ChartArea>
+
+		<Axis
+			LineColor="120,64,64,64"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="Silver"
+			MajorGrid-LineStyle="Solid" 
+			MinorGrid-LineColor="Silver" 
+			MinorGrid-LineStyle="Dot" ></Axis>
+
+		<Legend
+			BackColor = "Transparent"
+			BorderColor = "64, 64, 64" 
+			ShadowColor = "100,Black"
+			ShadowOffset = "2"
+			FontColor = "White"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:1"
+			BorderColor="Black"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>
+
+	<ChartTheme id="BrightPastel">
+		<Chart 
+			Palette="BrightPastel" 
+			BackColor="White" 
+			BackGradientType="None" 
+			BackGradientEndColor="White" 
+			BackHatchStyle="None" 
+			BorderLineColor="26,59,105" 
+			BorderLineWidth="1"
+			BorderLineStyle="Solid" 
+			BorderSkin-FrameBackColor="CornflowerBlue" 
+			BorderSkin-FrameBackGradientEndColor="CornflowerBlue" ></Chart>
+
+		<ChartArea
+			BackColor="White"
+			BorderColor="120,64,64,64"
+			BorderStyle="Solid"
+			BackGradientEndColor="White" 
+			BackGradientType="None" 
+			ShadowOffset="2" ></ChartArea>
+
+		<Axis
+			LineColor="26, 59, 105"
+			LabelStyle-FontColor="Black" 
+			MajorGrid-LineColor="200,200,200"
+			MajorGrid-LineStyle="Solid" 
+			MinorGrid-LineColor="70,200,200,200" 
+			MinorGrid-LineStyle="Dot" ></Axis>
+
+		<Legend
+			BackColor = "White"
+			BorderColor = "26,59,105" 
+			ShadowColor = "Black"
+			ShadowOffset = "2"
+			FontColor = "Black"
+			></Legend>
+
+		<Series
+			ShadowOffset="?Area|SplineArea|StackedArea|100%StackedArea|Range|SplineRange:0; Default:2"
+			BorderColor="26,59,105"
+			BorderWidth = "1"
+			BackGradientEndColor="DimGray"
+			BackGradientType="None"	
+			></Series>
+	</ChartTheme>	
+</Themes>
+

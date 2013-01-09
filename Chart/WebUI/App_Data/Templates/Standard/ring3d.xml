@@ -1,0 +1,47 @@
+<Chart Palette="BrightPastel" BuildNumber="1.0.0.202" Width="150" Height="86" BorderlineColor="26, 59, 105">
+  <Series>
+    <Series Name="Default" YValuesPerPoint="4" ShadowOffset="2" ChartType="Doughnut" BorderColor="26, 59, 105" CustomProperties="DoughnutRadius=20">
+      <Points>
+        <DataPoint YValues="3,1,1.2,2.5" />
+        <DataPoint YValues="7,3,5.5,4" />
+        <DataPoint YValues="3,1,1.5,2.1" />
+        <DataPoint YValues="5,2,4,3.2" />
+        <DataPoint YValues="8,1,4,7" />
+      </Points>
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="Transparent" BorderColor="Transparent" BorderDashStyle="Solid" Name="Default">
+      <AxisY>
+        <MajorGrid LineColor="Silver" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisY>
+      <AxisX>
+        <MajorGrid LineColor="Silver" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisX>
+      <AxisX2 Enabled="False">
+        <MajorGrid LineColor="Silver" Enabled="False" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisX2>
+      <AxisY2 Enabled="False">
+        <MajorGrid LineColor="Silver" Enabled="False" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisY2>
+      <Area3DStyle Enable3D="True" LightStyle="Realistic" WallWidth="4" />
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="Default" Enabled="False" BackColor="White" BorderColor="26, 59, 105" ShadowOffset="2">
+    </Legend>
+  </Legends>
+  <BorderSkin BackColor="CornflowerBlue" BackSecondaryColor="CornflowerBlue" />
+</Chart>

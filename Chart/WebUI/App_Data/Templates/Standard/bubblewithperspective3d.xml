@@ -1,0 +1,56 @@
+<Chart Palette="BrightPastel" BuildNumber="1.0.0.202" Width="150" Height="86" BorderlineColor="26, 59, 105">
+  <Series>
+    <Series Name="Default" YValuesPerPoint="4" ShadowOffset="2" ChartType="Bubble" BorderColor="26, 59, 105" MarkerBorderColor="64, 64, 64">
+      <Points>
+        <DataPoint YValues="3,1,1.2,2.5" />
+        <DataPoint YValues="7,3,5.5,4" />
+        <DataPoint YValues="3,1,1.5,2.1" />
+        <DataPoint YValues="5,2,4,3.2" />
+        <DataPoint YValues="8,1,4,7" />
+      </Points>
+    </Series>
+    <Series Name="Series2" YValuesPerPoint="4" ShadowOffset="2" ChartType="Bubble" BorderColor="26, 59, 105" MarkerBorderColor="64, 64, 64">
+      <Points>
+        <DataPoint YValues="9,3,8,4" />
+        <DataPoint YValues="4,2,2.5,2.8" />
+        <DataPoint YValues="6,1,2,3" />
+        <DataPoint YValues="2,0.1,0.5,1.9" />
+        <DataPoint YValues="7,4,6,5.5" />
+      </Points>
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="White" ShadowOffset="2" BorderColor="26, 59, 105" BorderDashStyle="Solid" Name="Default">
+      <AxisY>
+        <MajorGrid LineColor="Silver" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisY>
+      <AxisX>
+        <MajorGrid LineColor="Silver" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisX>
+      <AxisX2 Enabled="False">
+        <MajorGrid LineColor="Silver" Enabled="False" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisX2>
+      <AxisY2 Enabled="False">
+        <MajorGrid LineColor="Silver" Enabled="False" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisY2>
+      <Area3DStyle Enable3D="True" IsRightAngleAxes="False" LightStyle="Realistic" Perspective="30" WallWidth="4" />
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="Default" Enabled="False" BackColor="White" BorderColor="26, 59, 105" ShadowOffset="2">
+    </Legend>
+  </Legends>
+  <BorderSkin BackColor="CornflowerBlue" BackSecondaryColor="CornflowerBlue" />
+</Chart>

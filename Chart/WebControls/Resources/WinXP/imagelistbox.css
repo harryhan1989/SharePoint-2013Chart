@@ -1,0 +1,23 @@
+﻿
+.ilbx_Input_WinXP {z-index:-32000;position:absolute;padding:0px;border:0px;width:0px;}	
+.ilbx_Div_WinXP {border-style:solid;border-width:1px; border-color:#7f9db9; background-color:white; color:black; overflow:auto;}
+.ilbx_ListItemTable_WinXP {padding:0px; border-collapse: collapse;}
+.ilbx_ListItemTr_WinXP {font-family:Arial; font-size:9pt; cursor:pointer;}
+
+.ilbx_ListItemTdIcon_WinXP {width:21px;padding: 0px 2px 0px 2px;}
+.ilbx_ListItemTdText_WinXP {width:100%;padding: 0px 2px 0px 2px;}
+.ilbx_ListItemIndex_WinXP {display:none;}
+.ilbx_ListItemValue_WinXP {display:none;}
+.ilbx_ListItemIcon_WinXP {width:17px; height:17px; vertical-align:middle; padding: 0px 2px 0px 2px;}    
+.ilbx_ListItemText_WinXP {}
+
+.ilbx_On_WinXP {background-color:#ece9d8;}
+.ilbx_On_Focused_WinXP {color:white;background-color:#316ac5;}
+.ilbx_Over_WinXP {background-color:#f2f8fc;}
+.ilbx_On_Over_WinXP {background-color:#d9d8cb;}
+.ilbx_On_Focused_Over_WinXP {color:yellow;background-color:#316ac5;}
+
+.ilbx_Div_Disabled_WinXP {border-style:solid;border-width:1px; border-color:#7f9db9; background-color:white; color:black; overflow:auto;}
+.ilbx_ListItemTr_Disabled_WinXP {color:#aca899; font-family:Arial; background-color:white; font-size:9pt; cursor:pointer;}
+.ilbx_On_Disabled_WinXP {background-color:#ece9d8;}
+

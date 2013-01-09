@@ -1,0 +1,20 @@
+﻿.ilbx_Input_MacOS {z-index:-32000;position:absolute;padding:0px;border:0px;width:0px;}	
+.ilbx_Div_MacOS {border-style:solid;border-width:1px; border-color:#404040 #d4d0c8 #d4d0c8 #404040; background-color:white; color:black; overflow:auto;}
+.ilbx_ListItemTable_MacOS {padding:0px; border-collapse: collapse;}
+.ilbx_ListItemTr_MacOS {font-family:Verdana; font-size:9pt; cursor:pointer;}
+.ilbx_ListItemTdIcon_MacOS {width:21px;padding: 0px 2px 0px 2px;}
+.ilbx_ListItemTdText_MacOS {width:100%;padding: 0px 2px 0px 2px;}
+.ilbx_ListItemIndex_MacOS {display:none;}
+.ilbx_ListItemValue_MacOS {display:none;}
+.ilbx_ListItemIcon_MacOS {width:17px; height:17px; vertical-align:middle; padding: 0px 2px 0px 2px;}    
+.ilbx_ListItemText_MacOS {}
+
+.ilbx_On_MacOS {background-color:#ece9d8;}
+.ilbx_On_Focused_MacOS {color:white;background-color:#0a246a;}
+.ilbx_Over_MacOS {background-color:#f2f8fc;}
+.ilbx_On_Over_MacOS {background-color:#d9d8cb;}
+.ilbx_On_Focused_Over_MacOS {color:yellow;background-color:#0a246a;}
+
+.ilbx_Div_Disabled_MacOS {border-style:solid;border-width:1px; border-color:#404040 #d4d0c8 #d4d0c8 #404040; background-color:white; color:black; overflow:auto;}
+.ilbx_ListItemTr_Disabled_MacOS {color:#808080; font-family:Verdana; font-size:9pt; cursor:pointer;}
+.ilbx_On_Disabled_MacOS {background-color:#ece9d8;}

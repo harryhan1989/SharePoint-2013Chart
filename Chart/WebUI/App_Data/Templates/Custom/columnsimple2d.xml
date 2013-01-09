@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Chart Palette="Pastel" BuildNumber="5.5.0.1697">
+	<Series>
+		<Series Name="Default" ShadowOffset="1" BorderColor="64, 64, 64">    </Series>
+		<Series Name="Series2" ShadowOffset="1" BorderColor="64, 64, 64">    </Series>
+	</Series>
+	<ChartAreas>
+		<ChartArea Name="Default">    </ChartArea>
+	</ChartAreas>
+	<Legends>
+		<Legend Name="Default">    </Legend>
+	</Legends>
+</Chart>

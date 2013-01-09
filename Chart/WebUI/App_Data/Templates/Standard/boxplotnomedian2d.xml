@@ -1,0 +1,47 @@
+<Chart Palette="BrightPastel" BuildNumber="1.0.0.202" Width="150" Height="86" BorderlineColor="26, 59, 105">
+  <Series>
+    <Series Name="Default" YValuesPerPoint="6" ShadowOffset="2" ChartType="BoxPlot" BorderColor="26, 59, 105" CustomProperties="BoxPlotShowMedian=false">
+      <Points>
+        <DataPoint YValues="2,9,4,7,5,6.5" />
+        <DataPoint YValues="0.5,8,1,7,4,5.5" />
+        <DataPoint YValues="3,7,4,6,5,5" />
+        <DataPoint YValues="0.5,6,2,5.5,3,4" />
+        <DataPoint YValues="4,8,5,7,5.5,6" />
+      </Points>
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="White" ShadowOffset="2" BorderColor="26, 59, 105" BorderDashStyle="Solid" Name="Default">
+      <AxisY LineColor="120, 0, 0, 0">
+        <MajorGrid LineColor="Silver" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisY>
+      <AxisX>
+        <MajorGrid LineColor="Silver" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisX>
+      <AxisX2 Enabled="False">
+        <MajorGrid LineColor="Silver" Enabled="False" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisX2>
+      <AxisY2 Enabled="False">
+        <MajorGrid LineColor="Silver" Enabled="False" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisY2>
+      <Area3DStyle WallWidth="4" />
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="Default" Enabled="False" BackColor="White" BorderColor="26, 59, 105" ShadowOffset="2">
+    </Legend>
+  </Legends>
+  <BorderSkin BackColor="CornflowerBlue" BackSecondaryColor="CornflowerBlue" />
+</Chart>

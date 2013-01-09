@@ -1,0 +1,25 @@
+﻿.iddl_TopTable_Win2K {border-style:solid; border-width:1px; border-color:#404040 #d4d0c8 #d4d0c8 #404040; background-color:white; height:19px;}
+.iddl_Tr_Win2K {font-family:Arial; font-size:9pt; cursor:pointer;}
+
+.iddl_TopTable_Disabled_Win2K{border-style:solid;border-width:1px; border-color:#75736e #f2f0ee #f2f0ee #75736e; background-color:white; height:19px;}
+.iddl_Tr_Disabled_Win2K {color:#808080; font-family:Arial; font-size:9pt; cursor:pointer;}
+
+.iddl_TdIcon_Win2K {width:21px; padding: 0px 2px 0px 2px;}
+.iddl_TdText_Win2K {width:100%; padding: 0px 2px 0px 2px;}
+.iddl_TdArrowDown_Win2K {width:15px; }
+.iddl_Input_Win2K {z-index:-32000;position:absolute;padding:0px;border:0px;width:0px;}
+.iddl_Icon_Win2K {width:17px; height:17px; vertical-align:middle; padding: 0px 2px 0px 2px;}    
+.iddl_Text_Win2K {height:17px;overflow:hidden;vertical-align:bottom;}		
+.iddl_Focused_Win2K {color:white;background-color:#0a246a;}
+		
+.iddl_ListItemDiv_Win2K {border-style:solid;border-width:1px; border-color:black; position:absolute; background-color:white; overflow:auto; display:none; z-index:16000;}
+.iddl_ListItemTable_Win2K {padding:0px; border-collapse: collapse;}
+.iddl_ListItemTr_Win2K {font-family:Arial; font-size:9pt; cursor:pointer;}
+.iddl_ListItemTdIcon_Win2K {width:21px;padding: 0px 2px 0px 2px;}
+.iddl_ListItemTdText_Win2K {width:100%;padding: 0px 2px 0px 2px;}
+.iddl_ListItemIndex_Win2K {display:none;}
+.iddl_ListItemValue_Win2K {display:none;}
+.iddl_ListItemIcon_Win2K {width:17px; height:17px; vertical-align:middle; padding: 0px 2px 0px 2px;}    
+.iddl_ListItemText_Win2K {}
+.iddl_ListItem_Focused_Win2K {color:white;background-color:#0a246a;}
+

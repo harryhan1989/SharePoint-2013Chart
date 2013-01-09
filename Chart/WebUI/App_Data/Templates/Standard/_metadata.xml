@@ -1,0 +1,189 @@
+<Metadata>
+  <Categories>
+    <Category id="Column" text="wizardCC_aspx_chartCategory_Custom" />
+    <Category id="Bar" text="wizardCC_aspx_chartCategory_Bar" />
+    <Category id="Area" text="wizardCC_aspx_chartCategory_Area" />
+    <Category id="Line" text="wizardCC_aspx_chartCategory_Line" />
+    <Category id="PointBubble" text="wizardCC_aspx_chartCategory_PointBubble" />
+    <Category id="Financial" text="wizardCC_aspx_chartCategory_Financial" />
+    <Category id="Pie" text="wizardCC_aspx_chartCategory_Pie" />
+    <Category id="Radar" text="wizardCC_aspx_chartCategory_Radar" />
+    <!--MWC:DEL--> 
+    <!--<Category id="Rose" text="Rose" />-->
+    <Category id="Polar" text="wizardCC_aspx_chartCategory_Polar" />
+    <Category id="GanttRangeColumn" text="wizardCC_aspx_chartCategory_GanttRangeColumn" />
+    <Category id="Range" text="wizardCC_aspx_chartCategory_Range" />
+    <Category id="ErrorBar" text="wizardCC_aspx_chartCategory_ErrorBar" />
+    <Category id="BoxPlot" text="wizardCC_aspx_chartCategory_BoxPlot" />
+    <Category id="Funnel" text="wizardCC_aspx_chartCategory_Funnel" />
+    <Category id="Pyramid" text="wizardCC_aspx_chartCategory_Pyramid" />
+  </Categories>
+  <Templates>
+    <Template id="Column2D" dimensions="2" text="wizardCC_aspx_columnCategoryTemplate_Column2D" categoryId="Column" />
+    <Template id="StackedColumn2D" dimensions="2" text="wizardCC_aspx_columnCategoryTemplate_StackedColumn2D" categoryId="Column" />
+    <Template id="100StackedColumn2D" dimensions="2" text="wizardCC_aspx_columnCategoryTemplate_100StackedColumn2D" categoryId="Column" />
+    <Template id="ReversedColumn2D" dimensions="2" text="wizardCC_aspx_columnCategoryTemplate_ReversedColumn2D" categoryId="Column" />
+    <Template id="NoGapStackedColumn2D" dimensions="2" text="wizardCC_aspx_columnCategoryTemplate_NoGapStackedColumn2D" categoryId="Column" />
+    <Template id="ThinColumn2D" dimensions="2" text="wizardCC_aspx_columnCategoryTemplate_ThinColumn2D" categoryId="Column" />
+    <Template id="Bar2D" dimensions="2" text="wizardCC_aspx_barCategoryTemplate_Bar2D" categoryId="Bar" />
+    <Template id="StackedBar2D" dimensions="2" text="wizardCC_aspx_barCategoryTemplate_StackedBar2D" categoryId="Bar" />
+    <Template id="100StackedBar2D" dimensions="2" text="wizardCC_aspx_barCategoryTemplate_100StackedBar2D" categoryId="Bar" />
+    <Template id="ReversedBar2D" dimensions="2" text="wizardCC_aspx_barCategoryTemplate_ReversedBar2D" categoryId="Bar" />
+    <Template id="NoGapStackedBar2D" dimensions="2" text="wizardCC_aspx_barCategoryTemplate_NoGapStackedBar2D" categoryId="Bar" />
+    <Template id="ThinBar2D" dimensions="2" text="wizardCC_aspx_barCategoryTemplate_ThinBar2D" categoryId="Bar" />
+    <Template id="Area2D" dimensions="2" text="wizardCC_aspx_areaCategoryTemplate_Area2D" categoryId="Area" />
+    <Template id="SplineArea2D" dimensions="2" text="wizardCC_aspx_areaCategoryTemplate_SplineArea2D" categoryId="Area" />
+    <Template id="StackedArea2D" dimensions="2" text="wizardCC_aspx_areaCategoryTemplate_StackedArea2D" categoryId="Area" />
+    <Template id="100StackedArea2D" dimensions="2" text="wizardCC_aspx_areaCategoryTemplate_100StackedArea2D" categoryId="Area" />
+    <Template id="AreawithMargin2D" dimensions="2" text="wizardCC_aspx_areaCategoryTemplate_AreawithMargin2D" categoryId="Area" />
+    <Template id="Line2D" dimensions="2" text="wizardCC_aspx_lineCategoryTemplate_Line2D" categoryId="Line" />
+    <Template id="Spline2D" dimensions="2" text="wizardCC_aspx_lineCategoryTemplate_Spline2D" categoryId="Line" />
+    <Template id="StepLine2D" dimensions="2" text="wizardCC_aspx_lineCategoryTemplate_StepLine2D" categoryId="Line" />
+    <Template id="SplinewithMarkers2D" dimensions="2" text="wizardCC_aspx_lineCategoryTemplate_SplinewithMarkers2D" categoryId="Line" />
+    <Template id="LinewithnoMargin2D" dimensions="2" text="wizardCC_aspx_lineCategoryTemplate_LinewithnoMargin2D" categoryId="Line" />
+    <Template id="DifferentLineStyle2D" dimensions="2" text="wizardCC_aspx_lineCategoryTemplate_DifferentLineStyle2D" categoryId="Line" />
+    <Template id="Point2D" dimensions="2" text="wizardCC_aspx_pointBubbleCategoryTemplate_Point2D" categoryId="PointBubble" />
+    <Template id="PointwithLargeMarkers2D" dimensions="2" text="wizardCC_aspx_pointBubbleCategoryTemplate_PointwithLargeMarkers2D" categoryId="PointBubble" />
+    <Template id="Bubble2D" dimensions="2" text="wizardCC_aspx_pointBubbleCategoryTemplate_Bubble2D" categoryId="PointBubble" />
+    <Template id="Stock2D" dimensions="2" text="wizardCC_aspx_financialCategoryTemplate_Stock2D" categoryId="Financial" />
+    <Template id="StockOpenMarkersOnly2D" dimensions="2" text="wizardCC_aspx_financialCategoryTemplate_StockOpenMarkersOnly2D" categoryId="Financial" />
+    <Template id="StockCloseMarkersOnly2D" dimensions="2" text="wizardCC_aspx_financialCategoryTemplate_StockCloseMarkersOnly2D" categoryId="Financial" />
+    <Template id="StockTriangleMarkers2D" dimensions="2" text="wizardCC_aspx_financialCategoryTemplate_StockTriangleMarkers2D" categoryId="Financial" />
+    <Template id="CandleStick2D" dimensions="2" text="wizardCC_aspx_financialCategoryTemplate_CandleStick2D" categoryId="Financial" />
+    <Template id="PriceVolume2D" dimensions="2" text="wizardCC_aspx_financialCategoryTemplate_PriceVolume2D" categoryId="Financial" />
+    <Template id="Pie2D" dimensions="2" text="wizardCC_aspx_pieCategoryTemplate_Pie2D" categoryId="Pie" />
+    <Template id="Doughnut2D" dimensions="2" text="wizardCC_aspx_pieCategoryTemplate_Doughnut2D" categoryId="Pie" />
+    <Template id="Ring2D" dimensions="2" text="wizardCC_aspx_pieCategoryTemplate_Ring2D" categoryId="Pie" />
+    <Template id="RadarArea2D" dimensions="2" text="wizardCC_aspx_radarCategoryTemplate_RadarArea2D" categoryId="Radar" />
+    <Template id="RadarLine2D" dimensions="2" text="wizardCC_aspx_radarCategoryTemplate_RadarLine2D" categoryId="Radar" />
+    <Template id="RadarMarker2D" dimensions="2" text="wizardCC_aspx_radarCategoryTemplate_RadarMarker2D" categoryId="Radar" />
+    <Template id="RadarAreaPolygon2D" dimensions="2" text="wizardCC_aspx_radarCategoryTemplate_RadarAreaPolygon2D" categoryId="Radar" />
+    <Template id="RadarLinePolygon2D" dimensions="2" text="wizardCC_aspx_radarCategoryTemplate_RadarLinePolygon2D" categoryId="Radar" />
+    <Template id="RadarLineMarkerPolygon2D" dimensions="2" text="wizardCC_aspx_radarCategoryTemplate_RadarLineMarkerPolygon2D" categoryId="Radar" />
+    <Template id="RoseArea2D" dimensions="2" text="Rose Area" categoryId="Rose" />
+    <Template id="RoseLine2D" dimensions="2" text="Rose Line" categoryId="Rose" />
+    <Template id="RoseAreaPolygon2D" dimensions="2" text="Rose Area Polygon" categoryId="Rose" />
+    <Template id="RoseLinePolygon2D" dimensions="2" text="Rose Line Polygon" categoryId="Rose" />
+    <Template id="PolarLine2D" dimensions="2" text="wizardCC_aspx_polarCategoryTemplate_PolarLine2D" categoryId="Polar" />
+    <Template id="PolarMarker2D" dimensions="2" text="wizardCC_aspx_polarCategoryTemplate_PolarMarker2D" categoryId="Polar" />
+    <Template id="PolarLinePolygon2D" dimensions="2" text="wizardCC_aspx_polarCategoryTemplate_PolarLinePolygon2D" categoryId="Polar" />
+    <Template id="PolarMarkerPolygon2D" dimensions="2" text="wizardCC_aspx_polarCategoryTemplate_PolarMarkerPolygon2D" categoryId="Polar" />
+    <Template id="Gantt2D" dimensions="2" text="wizardCC_aspx_ganttRangeCategoryTemplate_Gantt2D" categoryId="GanttRangeColumn" />
+    <Template id="GanttSideBySide2D" dimensions="2" text="wizardCC_aspx_ganttRangeCategoryTemplate_GanttSideColumn2D" categoryId="GanttRangeColumn" />
+    <Template id="GanttThinBars2D" dimensions="2" text="wizardCC_aspx_ganttRangeCategoryTemplate_GanttThinBars2D" categoryId="GanttRangeColumn" />
+    <Template id="RangeColumn2D" dimensions="2" text="wizardCC_aspx_ganttRangeCategoryTemplate_RangeColumn2D" categoryId="GanttRangeColumn" />
+    <Template id="RangeColumnSideBySide2D" dimensions="2" text="wizardCC_aspx_ganttRangeCategoryTemplate_RangeColumnSidebySide2D" categoryId="GanttRangeColumn" />
+    <Template id="RangeColumnThinBars2D" dimensions="2" text="wizardCC_aspx_ganttRangeCategoryTemplate_RangeColumnThinBars2D" categoryId="GanttRangeColumn" />
+    <Template id="Range2D" dimensions="2" text="wizardCC_aspx_rangeCategoryTemplate_Range2D" categoryId="Range" />
+    <Template id="SplineRange2D" dimensions="2" text="wizardCC_aspx_rangeCategoryTemplate_SplineRange2D" categoryId="Range" />
+    <Template id="RangewithMargin2D" dimensions="2" text="wizardCC_aspx_rangeCategoryTemplate_RangewithMargin2D" categoryId="Range" />
+    <Template id="ErrorBar2D" dimensions="2" text="wizardCC_aspx_errorBarCategoryTemplate_ErrorBar2D" categoryId="ErrorBar" />
+    <Template id="UpperErrorBar2D" dimensions="2" text="wizardCC_aspx_errorBarCategoryTemplate_UpperErrorBar2D" categoryId="ErrorBar" />
+    <Template id="LowerErrorBar2D" dimensions="2" text="wizardCC_aspx_errorBarCategoryTemplate_LowerErrorBar2D" categoryId="ErrorBar" />
+    <Template id="ErrorBarWithCenterMarker2D" dimensions="2" text="wizardCC_aspx_errorBarCategoryTemplate_ErrorBarWithCenterMarker2D" categoryId="ErrorBar" />
+    <Template id="ErrorBarWithCircleMarker2D" dimensions="2" text="wizardCC_aspx_errorBarCategoryTemplate_ErrorBarWithCircleMarker2D" categoryId="ErrorBar" />
+    <Template id="ErrorBarWithSquareMarker2D" dimensions="2" text="wizardCC_aspx_errorBarCategoryTemplate_ErrorBarWithSquareMarker2D" categoryId="ErrorBar" />
+    <Template id="BoxPlot2D" dimensions="2" text="wizardCC_aspx_boxPlotCategoryTemplate_BoxPlot2D" categoryId="BoxPlot" />
+    <Template id="BoxPlotNoMedian2D" dimensions="2" text="wizardCC_aspx_boxPlotCategoryTemplate_BoxPlotNoMedian2D" categoryId="BoxPlot" />
+    <Template id="BoxPlotNoMedianAverage2D" dimensions="2" text="wizardCC_aspx_boxPlotCategoryTemplate_BoxPlotNoMedianAverage2D" categoryId="BoxPlot" />
+    <Template id="BoxPlotCircleMarkers2D" dimensions="2" text="wizardCC_aspx_boxPlotCategoryTemplate_BoxPlotCircleMarkers2D" categoryId="BoxPlot" />
+    <Template id="ThinBoxPlot2D" dimensions="2" text="wizardCC_aspx_boxPlotCategoryTemplate_ThinBoxPlot2D" categoryId="BoxPlot" />
+    <Template id="FunnelVariableHeight2D" dimensions="2" text="wizardCC_aspx_funnelCategoryTemplate_FunnelVariableHeight2D" categoryId="Funnel" />
+    <Template id="FunnelVariableWidth2D" dimensions="2" text="wizardCC_aspx_funnelCategoryTemplate_FunnelVariableWidth2D" categoryId="Funnel" />
+    <Template id="FunnelWithGaps2D" dimensions="2" text="wizardCC_aspx_funnelCategoryTemplate_FunnelWithGaps2D" categoryId="Funnel" />
+    <Template id="FunnelInsideLabels2D" dimensions="2" text="wizardCC_aspx_funnelCategoryTemplate_FunnelInsideLabels2D" categoryId="Funnel" />
+    <Template id="FunnelOutsideLabels2D" dimensions="2" text="wizardCC_aspx_funnelCategoryTemplate_FunnelOutsideLabels2D" categoryId="Funnel" />
+    <Template id="FunnelOutsideColumnLabels2D" dimensions="2" text="wizardCC_aspx_funnelCategoryTemplate_FunnelOutsideColumnLabels2D" categoryId="Funnel" />
+    <Template id="Pyramid2D" dimensions="2" text="wizardCC_aspx_pyramidCategoryTemplate_Pyramid2D" categoryId="Pyramid" />
+    <Template id="PyramidWithGaps2D" dimensions="2" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidWithGaps2D" categoryId="Pyramid" />
+    <Template id="PyramidInsideLabels2D" dimensions="2" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidInsideLabels2D" categoryId="Pyramid" />
+    <Template id="PyramidOutsideLabels2D" dimensions="2" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidOutsideLabels2D" categoryId="Pyramid" />
+    <Template id="PyramidOutsideColumnLabels2D" dimensions="2" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidOutsideColumnLabels2D" categoryId="Pyramid" />
+    <Template id="PyramidOutsideLeftLabels2D" dimensions="2" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidOutsideLeftLabels2D" categoryId="Pyramid" />
+    <Template id="Column3D" dimensions="3" text="wizardCC_aspx_columnCategoryTemplate_Column3D" categoryId="Column" />
+    <Template id="StackedColumn3D" dimensions="3" text="wizardCC_aspx_columnCategoryTemplate_StackedColumn3D" categoryId="Column" />
+    <Template id="100StackedColumn3D" dimensions="3" text="wizardCC_aspx_columnCategoryTemplate_100StackedColumn3D" categoryId="Column" />
+    <Template id="Cylinder3D" dimensions="3" text="wizardCC_aspx_columnCategoryTemplate_Cylinder3D" categoryId="Column" />
+    <Template id="ClusteredColumn3D" dimensions="3" text="wizardCC_aspx_columnCategoryTemplate_ClusteredColumn3D" categoryId="Column" />
+    <Template id="ColumnwithPerspective3D" dimensions="3" text="wizardCC_aspx_columnCategoryTemplate_ColumnwithPerspective3D" categoryId="Column" />
+    <Template id="Bar3D" dimensions="3" text="wizardCC_aspx_barCategoryTemplate_Bar3D" categoryId="Bar" />
+    <Template id="StackedBar3D" dimensions="3" text="wizardCC_aspx_barCategoryTemplate_StackedBar3D" categoryId="Bar" />
+    <Template id="100StackedBar3D" dimensions="3" text="wizardCC_aspx_barCategoryTemplate_100StackedBar3D" categoryId="Bar" />
+    <Template id="HorizontalCylinder3D" dimensions="3" text="wizardCC_aspx_barCategoryTemplate_HorizontalCylinder3D" categoryId="Bar" />
+    <Template id="ClusteredBar3D" dimensions="3" text="wizardCC_aspx_barCategoryTemplate_ClusteredBar3D" categoryId="Bar" />
+    <Template id="BarwithPerspective3D" dimensions="3" text="wizardCC_aspx_barCategoryTemplate_BarwithPerspective3D" categoryId="Bar" />
+    <Template id="Area3D" dimensions="3" text="wizardCC_aspx_areaCategoryTemplate_Area3D" categoryId="Area" />
+    <Template id="SplineArea3D" dimensions="3" text="wizardCC_aspx_areaCategoryTemplate_SplineArea3D" categoryId="Area" />
+    <Template id="StackedArea3D" dimensions="3" text="wizardCC_aspx_areaCategoryTemplate_StackedArea3D" categoryId="Area" />
+    <Template id="100StackedArea3D" dimensions="3" text="wizardCC_aspx_areaCategoryTemplate_100StackedArea3D" categoryId="Area" />
+    <Template id="AreawithPerspective3D" dimensions="3" text="wizardCC_aspx_areaCategoryTemplate_AreawithPerspective2D" categoryId="Area" />
+    <Template id="AreawithDropLines3D" dimensions="3" text="wizardCC_aspx_areaCategoryTemplate_AreawithDropLines2D" categoryId="Area" />
+    <Template id="Line3D" dimensions="3" text="wizardCC_aspx_lineCategoryTemplate_Line3D" categoryId="Line" />
+    <Template id="Spline3D" dimensions="3" text="wizardCC_aspx_lineCategoryTemplate_Spline3D" categoryId="Line" />
+    <Template id="StepLine3D" dimensions="3" text="wizardCC_aspx_lineCategoryTemplate_StepLine3D" categoryId="Line" />
+    <Template id="LinewithnoMargin3D" dimensions="3" text="wizardCC_aspx_lineCategoryTemplate_LinewithnoMargin3D" categoryId="Line" />
+    <Template id="WiderSpline3D" dimensions="3" text="wizardCC_aspx_lineCategoryTemplate_WiderSpline3D" categoryId="Line" />
+    <Template id="LinewithPerspective3D" dimensions="3" text="wizardCC_aspx_lineCategoryTemplate_LinewithPerspective3D" categoryId="Line" />
+    <Template id="Point3D" dimensions="3" text="wizardCC_aspx_pointBubbleCategoryTemplate_Point3D" categoryId="PointBubble" />
+    <Template id="Bubble3D" dimensions="3" text="wizardCC_aspx_pointBubbleCategoryTemplate_Bubble3D" categoryId="PointBubble" />
+    <Template id="BubblewithPerspective3D" dimensions="3" text="wizardCC_aspx_pointBubbleCategoryTemplate_BubblewithPerspective3D" categoryId="PointBubble" />
+    <Template id="Stock3D" dimensions="3" text="wizardCC_aspx_financialCategoryTemplate_Stock3D" categoryId="Financial" />
+    <Template id="StockOpenMarkersOnly3D" dimensions="3" text="wizardCC_aspx_financialCategoryTemplate_StockOpenMarkersOnly3D" categoryId="Financial" />
+    <Template id="StockCloseMarkersOnly3D" dimensions="3" text="wizardCC_aspx_financialCategoryTemplate_StockCloseMarkersOnly3D" categoryId="Financial" />
+    <Template id="StockTriangleMarkers3D" dimensions="3" text="wizardCC_aspx_financialCategoryTemplate_StockTriangleMarkers3D" categoryId="Financial" />
+    <Template id="CandleStick3D" dimensions="3" text="wizardCC_aspx_financialCategoryTemplate_CandleStick3D" categoryId="Financial" />
+    <Template id="Pie3D" dimensions="3" text="wizardCC_aspx_pieCategoryTemplate_Pie3D" categoryId="Pie" />
+    <Template id="Doughnut3D" dimensions="3" text="wizardCC_aspx_pieCategoryTemplate_Doughnut3D" categoryId="Pie" />
+    <Template id="Ring3D" dimensions="3" text="wizardCC_aspx_pieCategoryTemplate_Ring3D" categoryId="Pie" />
+    <Template id="ThickDoughnut3D" dimensions="3" text="wizardCC_aspx_pieCategoryTemplate_ThickDoughnut3D" categoryId="Pie" />
+    <Template id="RadarArea3D" dimensions="3" text="wizardCC_aspx_radarCategoryTemplate_RadarArea3D" categoryId="Radar" />
+    <Template id="RadarLine3D" dimensions="3" text="wizardCC_aspx_radarCategoryTemplate_RadarLine3D" categoryId="Radar" />
+    <Template id="RadarMarker3D" dimensions="3" text="wizardCC_aspx_radarCategoryTemplate_RadarMarker3D" categoryId="Radar" />
+    <Template id="RadarAreaPolygon3D" dimensions="3" text="wizardCC_aspx_radarCategoryTemplate_RadarAreaPolygon3D" categoryId="Radar" />
+    <Template id="RadarLinePolygon3D" dimensions="3" text="wizardCC_aspx_radarCategoryTemplate_RadarLinePolygon3D" categoryId="Radar" />
+    <Template id="RadarLineMarkerPolygon3D" dimensions="3" text="wizardCC_aspx_radarCategoryTemplate_RadarLineMarkerPolygon3D" categoryId="Radar" />
+    <Template id="RoseArea3D" dimensions="3" text="Rose Area" categoryId="Rose" />
+    <Template id="RoseLine3D" dimensions="3" text="Rose Line" categoryId="Rose" />
+    <Template id="RoseAreaPolygon3D" dimensions="3" text="Rose Area Polygon" categoryId="Rose" />
+    <Template id="RoseLinePolygon3D" dimensions="3" text="Rose Line Polygon" categoryId="Rose" />
+    <Template id="PolarLine3D" dimensions="3" text="wizardCC_aspx_polarCategoryTemplate_PolarLine3D" categoryId="Polar" />
+    <Template id="PolarMarker3D" dimensions="3" text="wizardCC_aspx_polarCategoryTemplate_PolarMarker3D" categoryId="Polar" />
+    <Template id="PolarLinePolygon3D" dimensions="3" text="wizardCC_aspx_polarCategoryTemplate_PolarLinePolygon3D" categoryId="Polar" />
+    <Template id="PolarMarkerPolygon3D" dimensions="3" text="wizardCC_aspx_polarCategoryTemplate_PolarMarkerPolygon3D" categoryId="Polar" />
+    <Template id="Gantt3D" dimensions="3" text="wizardCC_aspx_ganttRangeCategoryTemplate_Gantt3D" categoryId="GanttRangeColumn" />
+    <Template id="ClusteredGantt3D" dimensions="3" text="wizardCC_aspx_ganttRangeCategoryTemplate_ClusteredGantt3D" categoryId="GanttRangeColumn" />
+    <Template id="CylinderGantt3D" dimensions="3" text="wizardCC_aspx_ganttRangeCategoryTemplate_CylinderGantt3D" categoryId="GanttRangeColumn" />
+    <Template id="RangeColumn3D" dimensions="3" text="wizardCC_aspx_ganttRangeCategoryTemplate_RangeColumn3D" categoryId="GanttRangeColumn" />
+    <Template id="ClusteredRangeColumn3D" dimensions="3" text="wizardCC_aspx_ganttRangeCategoryTemplate_ClusteredRangeColumn3D" categoryId="GanttRangeColumn" />
+    <Template id="CylinderRangeColumn3D" dimensions="3" text="wizardCC_aspx_ganttRangeCategoryTemplate_CylinderRangeColumn3D" categoryId="GanttRangeColumn" />
+    <Template id="Range3D" dimensions="3" text="wizardCC_aspx_rangeCategoryTemplate_Range3D" categoryId="Range" />
+    <Template id="SplineRange3D" dimensions="3" text="wizardCC_aspx_rangeCategoryTemplate_SplineRange3D" categoryId="Range" />
+    <Template id="RangewithMargin3D" dimensions="3" text="wizardCC_aspx_rangeCategoryTemplate_RangewithMargin3D" categoryId="Range" />
+    <Template id="RangewithDropLines3D" dimensions="3" text="wizardCC_aspx_rangeCategoryTemplate_RangewithDropLines3D" categoryId="Range" />
+    <Template id="RangewithPerspective3D" dimensions="3" text="wizardCC_aspx_rangeCategoryTemplate_RangewithPerspective3D" categoryId="Range" />
+    <Template id="SplineRangewithPerspective3D" dimensions="3" text="wizardCC_aspx_rangeCategoryTemplate_SplineRangewithPerspective3D" categoryId="Range" />
+    <Template id="ErrorBar3D" dimensions="3" text="wizardCC_aspx_errorBarCategoryTemplate_ErrorBar3D" categoryId="ErrorBar" />
+    <Template id="UpperErrorBar3D" dimensions="3" text="wizardCC_aspx_errorBarCategoryTemplate_UpperErrorBar3D" categoryId="ErrorBar" />
+    <Template id="LowerErrorBar3D" dimensions="3" text="wizardCC_aspx_errorBarCategoryTemplate_LowerErrorBar3D" categoryId="ErrorBar" />
+    <Template id="ErrorBarWithCenterMarker3D" dimensions="3" text="wizardCC_aspx_errorBarCategoryTemplate_ErrorBarWithCenterMarker3D" categoryId="ErrorBar" />
+    <Template id="ErrorBarWithCircleMarker3D" dimensions="3" text="wizardCC_aspx_errorBarCategoryTemplate_ErrorBarWithCircleMarker3D" categoryId="ErrorBar" />
+    <Template id="ErrorBarWithSquareMarker3D" dimensions="3" text="wizardCC_aspx_errorBarCategoryTemplate_ErrorBarWithSquareMarker3D" categoryId="ErrorBar" />
+    <Template id="BoxPlot3D" dimensions="3" text="wizardCC_aspx_boxPlotCategoryTemplate_BoxPlot3D" categoryId="BoxPlot" />
+    <Template id="BoxPlotNoMedian3D" dimensions="3" text="wizardCC_aspx_boxPlotCategoryTemplate_BoxPlotNoMedian3D" categoryId="BoxPlot" />
+    <Template id="BoxPlotNoMedianAverage3D" dimensions="3" text="wizardCC_aspx_boxPlotCategoryTemplate_BoxPlotNoMedianAverage3D" categoryId="BoxPlot" />
+    <Template id="BoxPlotCircleMarkers3D" dimensions="3" text="wizardCC_aspx_boxPlotCategoryTemplate_BoxPlotCircleMarkers3D" categoryId="BoxPlot" />
+    <Template id="ThinBoxPlot3D" dimensions="3" text="wizardCC_aspx_boxPlotCategoryTemplate_ThinBoxPlot3D" categoryId="BoxPlot" />
+    <Template id="FunnelVariableHeight3D" dimensions="3" text="wizardCC_aspx_funnelCategoryTemplate_FunnelVariableHeight3D" categoryId="Funnel" />
+    <Template id="FunnelVariableWidth3D" dimensions="3" text="wizardCC_aspx_funnelCategoryTemplate_FunnelVariableWidth3D" categoryId="Funnel" />
+    <Template id="FunnelWithGaps3D" dimensions="3" text="wizardCC_aspx_funnelCategoryTemplate_FunnelWithGaps3D" categoryId="Funnel" />
+    <Template id="FunnelInsideLabels3D" dimensions="3" text="wizardCC_aspx_funnelCategoryTemplate_FunnelInsideLabels3D" categoryId="Funnel" />
+    <Template id="FunnelOutsideLabels3D" dimensions="3" text="wizardCC_aspx_funnelCategoryTemplate_FunnelOutsideLabels3D" categoryId="Funnel" />
+    <Template id="FunnelOutsideColumnLabels3D" dimensions="3" text="wizardCC_aspx_funnelCategoryTemplate_FunnelOutsideColumnLabels3D" categoryId="Funnel" />
+    <Template id="Pyramid3D" dimensions="3" text="wizardCC_aspx_pyramidCategoryTemplate_Pyramid3D" categoryId="Pyramid" />
+    <Template id="PyramidWithGaps3D" dimensions="3" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidWithGaps3D" categoryId="Pyramid" />
+    <Template id="CylinderInsideLabels3D" dimensions="3" text="wizardCC_aspx_pyramidCategoryTemplate_CylinderInsideLabels3D" categoryId="Pyramid" />
+    <Template id="PyramidOutsideLabels3D" dimensions="3" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidOutsideLabels3D" categoryId="Pyramid" />
+    <Template id="PyramidOutsideColumnLabels3D" dimensions="3" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidOutsideColumnLabels3D" categoryId="Pyramid" />
+    <Template id="PyramidOutsideLeftLabels3D" dimensions="3" text="wizardCC_aspx_pyramidCategoryTemplate_PyramidOutsideLeftLabels3D" categoryId="Pyramid" />
+  </Templates>
+</Metadata>

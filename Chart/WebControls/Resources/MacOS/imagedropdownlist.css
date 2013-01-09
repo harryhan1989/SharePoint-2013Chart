@@ -1,0 +1,25 @@
+﻿.iddl_TopTable_MacOS {border-style:none;height:21px;}
+.iddl_Tr_MacOS {font-family:Verdana; font-size:9pt; cursor:pointer;}
+
+.iddl_TopTable_Disabled_MacOS {border-style:none;height:21px;}
+.iddl_Tr_Disabled_MacOS {color:#808080;font-family:Verdana; font-size:9pt; cursor:pointer;}
+
+.iddl_TdIcon_MacOS {width:21px; padding: 0px 2px 0px 2px; background-repeat:no-repeat; background-image:url('/_Layouts/Chart/WebControls/Resources/MacOS/BgIcon.gif')}
+.iddl_TdText_MacOS {width:100%; padding: 0px 2px 0px 2px; background-repeat:repeat-x; background-image:url('/_Layouts/Chart/WebControls/Resources/MacOS/BgText.gif');}
+.iddl_TdArrowDown_MacOS {width:21px; }
+.iddl_Input_MacOS {z-index:-32000;position:absolute;padding:0px;border:0px;width:0px;}
+.iddl_Icon_MacOS {width:17px; height:17px; vertical-align:middle; padding: 0px 2px 0px 2px;}    
+.iddl_Text_MacOS {height:17px;overflow:hidden;vertical-align:bottom;}		
+.iddl_Focused_MacOS {color:#3173d6;}
+		
+.iddl_ListItemDiv_MacOS {border-style:solid;border-width:1px; border-color:black; position:absolute; background-color:white; overflow:auto; display:none; z-index:16000;}
+.iddl_ListItemTable_MacOS {padding:0px; border-collapse: collapse;}
+.iddl_ListItemTr_MacOS {font-family:Verdana; font-size:9pt; cursor:pointer;}
+.iddl_ListItemTdIcon_MacOS {width:21px;padding: 0px 2px 0px 2px;}
+.iddl_ListItemTdText_MacOS {width:100%;padding: 0px 2px 0px 2px;}
+.iddl_ListItemIndex_MacOS {display:none;}
+.iddl_ListItemValue_MacOS {display:none;}
+.iddl_ListItemIcon_MacOS {width:17px; height:17px; vertical-align:middle; padding: 0px 2px 0px 2px;}    
+.iddl_ListItemText_MacOS {}
+.iddl_ListItem_Focused_MacOS {color:white;background-color:#3173d6;}
+

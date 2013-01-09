@@ -1,0 +1,17 @@
+﻿.itab_Input_WinXP {z-index:-32000;position:absolute;padding:0px;border:0px;width:0px;}	
+.itab_Div_WinXP {height:19px;}
+.itab_Table_WinXP {height:19px;}
+
+.itab_TabIndex_WinXP {display:none;}  
+.itab_TabValue_WinXP {display:none;}  
+.itab_TabIcon_WinXP {padding: 1px 2px 1px 0px; vertical-align:middle;}  
+.itab_TabText_WinXP {white-space: nowrap;font-family:Arial; text-align:center; font-size:8pt; cursor:pointer;}
+
+.itab_TabAFirst_WinXP {white-space: nowrap; font-weight:bold; padding-left:19px;background-repeat:no-repeat;background-image:url('TabAFirst.gif')}
+.itab_TabPFirst_WinXP {white-space: nowrap; padding-left:19px; background-repeat:no-repeat;background-image:url('TabPFirst.gif')}
+.itab_TabAP_WinXP {white-space: nowrap;padding-left:19px; background-repeat:no-repeat;background-image:url('TabAP.gif')}
+.itab_TabPA_WinXP {white-space: nowrap;font-weight:bold;padding-left:19px; background-repeat:no-repeat;background-image:url('TabPA.gif')}
+.itab_TabPP_WinXP {white-space: nowrap;padding-left:19px; background-repeat:no-repeat;background-image:url('TabPP.gif')}
+.itab_TabALast_WinXP {white-space: nowrap;width:20px; background-repeat:no-repeat;background-image:url('TabALast.gif')}
+.itab_TabPLast_WinXP {white-space: nowrap;width:20px; background-repeat:no-repeat;background-image:url('TabPLast.gif')}
+.itab_TabBg_WinXP {white-space: nowrap; background-image:url('TabBg.gif')}

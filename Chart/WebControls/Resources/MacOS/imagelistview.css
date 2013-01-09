@@ -1,0 +1,17 @@
+﻿.ilvw_Input_MacOS {z-index:-32000;position:absolute;padding:0px;border:0px;width:0px;}	
+.ilvw_Div_MacOS {border-style:solid; border-width: 1px; border-color:#404040 #d4d0c8 #d4d0c8 #404040; background-color:white; color:black; overflow:auto;}
+.ilvw_ListItemTd_MacOS {font-family:Verdana; text-align:center; font-size:9pt; cursor:pointer;}
+.ilvw_ListItemIndex_MacOS {display:none;}
+.ilvw_ListItemValue_MacOS {display:none;}
+.ilvw_ListItemIcon_MacOS {padding: 2px 2px 2px 2px;}    
+.ilvw_ListItemText_MacOS {}
+
+.ilvw_On_MacOS {background-color:#ece9d8;}
+.ilvw_On_Focused_MacOS {color:white;background-color:#0a246a;}
+.ilvw_Over_MacOS {background-color:#f2f8fc;}
+.ilvw_On_Over_MacOS {background-color:#d9d8cb;}
+.ilvw_On_Focused_Over_MacOS {color:yellow;background-color:#0a246a;}
+
+.ilvw_Div_Disabled_MacOS {border-style:solid;border-width:1px; border-color:#404040 #d4d0c8 #d4d0c8 #404040; background-color:white; color:black; overflow:auto;}
+.ilvw_ListItemTd_Disabled_MacOS {color:#808080; font-family:Verdana; font-size:9pt; text-align:center; cursor:pointer;}
+.ilvw_On_Disabled_MacOS {background-color:#ece9d8;}

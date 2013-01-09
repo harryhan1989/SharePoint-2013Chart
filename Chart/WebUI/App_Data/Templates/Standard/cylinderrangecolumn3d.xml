@@ -1,0 +1,56 @@
+<Chart Palette="BrightPastel" BuildNumber="1.0.0.202" Width="150" Height="86" BorderlineColor="26, 59, 105">
+  <Series>
+    <Series Name="Default" YValueType="DateTime" YValuesPerPoint="2" ShadowOffset="2" ChartType="RangeColumn" BorderColor="26, 59, 105" CustomProperties="DrawingStyle=Cylinder">
+      <Points>
+        <DataPoint YValues="3,1" />
+        <DataPoint YValues="7,3" />
+        <DataPoint YValues="3,1" />
+        <DataPoint YValues="5,2" />
+        <DataPoint YValues="8,1" />
+      </Points>
+    </Series>
+    <Series Name="Series2" YValueType="DateTime" YValuesPerPoint="2" ShadowOffset="2" ChartType="RangeColumn" BorderColor="26, 59, 105" CustomProperties="DrawingStyle=Cylinder">
+      <Points>
+        <DataPoint YValues="9,3" />
+        <DataPoint YValues="4,2" />
+        <DataPoint YValues="6,1" />
+        <DataPoint YValues="2,0.1" />
+        <DataPoint YValues="7,4" />
+      </Points>
+    </Series>
+  </Series>
+  <ChartAreas>
+    <ChartArea BackColor="White" ShadowOffset="2" BorderColor="26, 59, 105" BorderDashStyle="Solid" Name="Default">
+      <AxisY>
+        <MajorGrid LineColor="Silver" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisY>
+      <AxisX>
+        <MajorGrid LineColor="Silver" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisX>
+      <AxisX2 Enabled="False">
+        <MajorGrid LineColor="Silver" Enabled="False" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisX2>
+      <AxisY2 Enabled="False">
+        <MajorGrid LineColor="Silver" Enabled="False" />
+        <MinorGrid LineColor="Silver" />
+        <MajorTickMark Enabled="False" />
+        <LabelStyle Enabled="False" />
+      </AxisY2>
+      <Area3DStyle Enable3D="True" IsRightAngleAxes="False" IsClustered="True" LightStyle="Realistic" WallWidth="4" />
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend Name="Default" Enabled="False" BackColor="White" BorderColor="26, 59, 105" ShadowOffset="2">
+    </Legend>
+  </Legends>
+  <BorderSkin BackColor="CornflowerBlue" BackSecondaryColor="CornflowerBlue" />
+</Chart>

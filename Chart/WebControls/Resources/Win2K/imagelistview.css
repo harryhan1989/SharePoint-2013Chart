@@ -1,0 +1,17 @@
+﻿.ilvw_Input_Win2K {z-index:-32000;position:absolute;padding:0px;border:0px;width:0px;}	
+.ilvw_Div_Win2K {border-style:solid; border-width: 1px; border-color:#404040 #d4d0c8 #d4d0c8 #404040; background-color:white; color:black; overflow:auto;}
+.ilvw_ListItemTd_Win2K {font-family:Arial; text-align:center; font-size:9pt; cursor:pointer;}
+.ilvw_ListItemIndex_Win2K {display:none;}
+.ilvw_ListItemValue_Win2K {display:none;}
+.ilvw_ListItemIcon_Win2K {padding: 2px 2px 2px 2px;}    
+.ilvw_ListItemText_Win2K {}
+
+.ilvw_On_Win2K {background-color:#ece9d8;}
+.ilvw_On_Focused_Win2K {color:white;background-color:#0a246a;}
+.ilvw_Over_Win2K {background-color:#f2f8fc;}
+.ilvw_On_Over_Win2K {background-color:#d9d8cb;}
+.ilvw_On_Focused_Over_Win2K {color:yellow;background-color:#0a246a;}
+
+.ilvw_Div_Disabled_Win2K {border-style:solid;border-width:1px; border-color:#404040 #d4d0c8 #d4d0c8 #404040; background-color:white; color:black; overflow:auto;}
+.ilvw_ListItemTd_Disabled_Win2K {color:#808080; font-family:Arial; font-size:9pt; text-align:center; cursor:pointer;}
+.ilvw_On_Disabled_Win2K {background-color:#ece9d8;}
